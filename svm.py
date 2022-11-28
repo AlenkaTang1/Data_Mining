@@ -3,16 +3,16 @@ from sklearn import metrics
 import csv
 
 #load and read cvs file
-file = open("training1.csv", "r")
+file = open("training_data1.csv", "r")
 training1 = list(csv.reader(file, delimiter=","))
 file.close()
-file = open("training2.csv", "r")
+file = open("training_data2.csv", "r")
 training2 = list(csv.reader(file, delimiter=","))
 file.close()
-file = open("testing1.csv", "r")
+file = open("testing_data1.csv", "r")
 testing1 = list(csv.reader(file, delimiter=","))
 file.close()
-file = open("testing2.csv", "r")
+file = open("testing_data2.csv", "r")
 testing2 = list(csv.reader(file, delimiter=","))
 file.close()
 
